@@ -76,17 +76,6 @@ functions:
           method: delete
           cors: true
           authorizer: aws_iam
-  # cors:
-  #   origin: '*'
-  #   headers:
-  #     - Content-Type
-  #     - X-Amz-Date
-  #     - Authorization
-  #     - X-Api-Key
-  #     - X-Amz-Security-Token
-  #     - X-Amz-User-Agent
-  #   allowCredentials: false
-
 
 resources:
   # API Gateway Errors
